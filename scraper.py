@@ -104,6 +104,9 @@ for i in range(4,10):
 		  'manifest': manifest,
 		  'spine': spine,
 		})
+		
+		# remove html file
+		os.remove(html_basename)
 			
 
 
